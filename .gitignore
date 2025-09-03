@@ -231,3 +231,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Nuget package artifacts
+artifacts/
