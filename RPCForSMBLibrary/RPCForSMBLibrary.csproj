@@ -12,6 +12,7 @@
     <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/vletoux/RPCForSMBLibrary</PackageProjectUrl>
     <RepositoryUrl>https://github.com/portalarchitects/RPCForSMBLibrary</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -20,6 +21,8 @@
 
   <ItemGroup>
     <PackageReference Include="SMBLibrary" Version="1.5.3.4" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="all" />
+    <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>

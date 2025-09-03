@@ -6,6 +6,7 @@
     <AssemblyName>RPCForSMBLibrary.Tests</AssemblyName>
     <RootNamespace>RPCForSMBLibrary.Tests</RootNamespace>
     <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
